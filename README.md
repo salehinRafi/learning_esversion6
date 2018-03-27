@@ -1,6 +1,6 @@
 ## Array Helper
 ````
-1. forEach --> use for?
+1. forEach
 2. map
 3. filter 
 4. find
@@ -9,14 +9,38 @@
 7. reduce
 ````
 
-# Variable Devlaration
+# Variable Declaration
 ````
 1. const // Expect the value to be immutable 
 2. let // Expect the value to be mutable
 ````
 # Template String | Template Literal
 # Arrow Functions
+# Object Literal
+
+ * If Key-Value pair where `Key` & `Value` is identical, we can condense as one.
+   *Before*
+    ````
+    inventory: inventory
+    ````
+
+    *After*
+    ````
+    inventory
+    ````
+ * If Key-Value pair where `Value` is `function`, we can omit the `function keyword and  colon (:)`
+    *Before*
+    ````
+    priceForTitle: function(title){
+    }
+    ````
+    *After*
+    ````
+    priceForTitle(title){
+    }
+    ````
 ## Make sure    
 1. No mutable data
 [Promise](https://scotch.io/amp/tutorials/javascript-promises-for-dummies)
-nnti updat readme
+
+*In a Progress*
