@@ -9,7 +9,14 @@
 7. reduce
 ````
 
+# Variable Devlaration
+````
+1. const // Expect the value to be immutable 
+2. let // Expect the value to be mutable
+````
+# Template String | Template Literal
+# Arrow Functions
 ## Make sure    
-1. No muttable data
-
+1. No mutable data
+[Promise](https://scotch.io/amp/tutorials/javascript-promises-for-dummies)
 nnti updat readme
