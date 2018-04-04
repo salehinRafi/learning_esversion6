@@ -23,6 +23,7 @@ ES6 provides two new ways of declaring variables: let and const, which mostly re
 
 #### 1. const
 > ***i.*** Use for variables you want to be `immutable`.
+
 > ***ii.*** Variable you declare must be immediately initialized.
 #### 2. let
 > ***i.*** Use for variables you want to be `mutable`.
@@ -69,7 +70,9 @@ Default function parameters `allow formal parameters to be initialized with defa
 
 #### 1. Rest
 > ***i.*** `Capture/gather` a list of arguments `into a single array`.
+
 > ***ii.*** Indicated by three dots `...<argumentName>`.
+
 > ***iii.*** Restriction: no other named arguments can follow in the function declaration.
 
 #### 2. Spread
