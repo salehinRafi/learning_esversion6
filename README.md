@@ -4,16 +4,22 @@ The main goal for the `ES6` project was to fix some of JavaScript’s gotchas an
 
 ##### 1. forEach
 > `forEach` accept a function iterator that `loop through each item` in an array.
+
 ##### 2. map
 > `map` will loop through each item of array, `same like forEach but map returns the value of the array`.
+
 #### 3. filter 
 > `filter` return array `based on the boolean of the comparison`.
+
 #### 4. find
 > `find` will return the record `if a particular element is found` in the array.
+
 #### 5. every
-> `every` accept an iterator function that `will return true or false` where using AND operator. (`&&`)
+> `every` accept an iterator function that `will return true or false` where using AND operator (`&&`).
+
 #### 6. some
-> `some` accept an iterator function that `will return true or false` where using OR operator. (`||`)
+> `some` accept an iterator function that `will return true or false` where using OR operator (`||`).
+
 #### 7. reduce
 > `reduce` takes `two arguments`, the `first argument is the iterator function`, and `the second argument is the initial value`.
 
@@ -25,6 +31,7 @@ ES6 provides two new ways of declaring variables: let and const, which mostly re
 > ***i.*** Use for variables you want to be `immutable`.
 
 > ***ii.*** Variable you declare must be immediately initialized.
+
 #### 2. let
 > ***i.*** Use for variables you want to be `mutable`.
 
@@ -54,16 +61,16 @@ If Key-Value pair where `Key` & `Value` is identical, we can condense as one.
 
 > ***After***
     `inventory`
-    
+
 #### 2. Shorthand for Writing Methods
 If Key-Value pair where `Value` is `function`, we can omit the `function keyword and  colon (:)`
 
 > ***Before***
     `priceForTitle: function(title){ }`
-    
+
 > ***After***
     `priceForTitle(title){ }`
-    
+
 ## Default Function Argument
 Default function parameters `allow formal parameters to be initialized with default values` if no value or undefined is passed.
 ## Rest & Spread
@@ -88,6 +95,17 @@ Destructuring is a convenient `way of extracting multiple values from data store
 Classes are in fact `special functions`, and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
 
 ## Generators
+## Promises & Fetch
+Are use to solve asynchronouse issues code
+#### 1. Promises
+> 3 state:
+* unresolved - waiting for something to finish
+* resolved - something finished and it all went ok
+* rejected - something finished and something went bad
+
+> 2 callback function:
+* for status **resolved** - callback is `then`
+* for status **rejected** - callback is `catch`
 
 ## Make sure    
 1. No mutable data
