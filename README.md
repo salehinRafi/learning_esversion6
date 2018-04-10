@@ -87,6 +87,8 @@ Destructuring is a convenient `way of extracting multiple values from data store
 ## Classes
 Classes are in fact `special functions`, and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
 
+## Generators
+
 ## Make sure    
 1. No mutable data
 [Promise](https://scotch.io/amp/tutorials/javascript-promises-for-dummies)
