@@ -94,7 +94,16 @@ Destructuring is a convenient `way of extracting multiple values from data store
 ## Classes
 Classes are in fact `special functions`, and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
 
-## Generators
+## Generators & Iterators
+####1. Generators
+> A generator is a function that can be entered and exhibit multiple times - they allow you to define an iterative algorithm by writing a single function which can maintain its own state.
+* A function becomes a GeneratorFunction if it uses the `function*` syntax.
+
+####2. Iterators
+>An object is iterable if it defines its iteration behavior, such as what values are looped over in a `for...of` construct.
+
+>An object must implement the @@iterator method, meaning that the object (or one of the objects up its prototype chain) must have a property with a `Symbol.iterator` key.
+
 ## Promises & Fetch
 Are use to solve asynchronouse issues code
 #### 1. Promises
@@ -106,9 +115,5 @@ Are use to solve asynchronouse issues code
 > 2 callback function:
 * for status **resolved** - callback is `then`
 * for status **rejected** - callback is `catch`
-
-## Make sure    
-1. No mutable data
-[Promise](https://scotch.io/amp/tutorials/javascript-promises-for-dummies)
 
 *In a Progress*
